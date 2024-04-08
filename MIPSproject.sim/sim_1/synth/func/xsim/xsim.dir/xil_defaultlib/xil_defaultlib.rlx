@@ -1,0 +1,6 @@
+0.7
+2020.2
+Feb  9 2024
+00:36:40
+D:/Users/hehey/Documents/MIPSproject/MIPSproject.sim/sim_1/synth/func/xsim/mips_sim_func_synth.v,1712491149,verilog,,D:/Users/hehey/Documents/MIPSproject/MIPSproject.srcs/sim_1/new/mips_sim.v,,ALU;DataRAM;InstrROM;RegFile;dist_mem_gen_v8_0_14;dist_mem_gen_v8_0_14__parameterized1;dist_mem_gen_v8_0_14_synth;dist_mem_gen_v8_0_14_synth__parameterized0;glbl;mips;spram;spram__parameterized1,,,,,,,,
+D:/Users/hehey/Documents/MIPSproject/MIPSproject.srcs/sim_1/new/mips_sim.v,1712491124,verilog,,,,mips_sim,,,,,,,,

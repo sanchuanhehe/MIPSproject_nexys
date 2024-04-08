@@ -1,0 +1,31 @@
+Vivado Simulator v2023.2.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_14 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_sim_behav xil_defaultlib.top_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 4 for port 'InDIG' [D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.srcs/sources_1/new/Screen.v:30]
+WARNING: [VRFC 10-5021] port 'd' is not connected on this instance [D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.srcs/sources_1/new/mips.v:99]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Divide_to_1Hz
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.MainCtr
+Compiling module xil_defaultlib.ALUCtr
+Compiling module dist_mem_gen_v8_0_14.dist_mem_gen_v8_0_14(C_FAMILY="a...
+Compiling module xil_defaultlib.DataRAM
+Compiling module dist_mem_gen_v8_0_14.dist_mem_gen_v8_0_14(C_FAMILY="a...
+Compiling module xil_defaultlib.InstrROM
+Compiling module xil_defaultlib.mips
+Compiling module xil_defaultlib.DV2_2000
+Compiling module xil_defaultlib.flag_exchange
+Compiling module xil_defaultlib.SEG8_LUT
+Compiling module xil_defaultlib.Screen
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_sim_behav

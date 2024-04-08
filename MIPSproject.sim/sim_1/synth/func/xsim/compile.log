@@ -1,0 +1,15 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/hehey/Documents/MIPSproject/MIPSproject.sim/sim_1/synth/func/xsim/mips_sim_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module DataRAM
+INFO: [VRFC 10-311] analyzing module InstrROM
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_14
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_14__parameterized1
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_14_synth
+INFO: [VRFC 10-311] analyzing module dist_mem_gen_v8_0_14_synth__parameterized0
+INFO: [VRFC 10-311] analyzing module spram
+INFO: [VRFC 10-311] analyzing module spram__parameterized1
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Users/hehey/Documents/MIPSproject/MIPSproject.srcs/sim_1/new/mips_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips_sim

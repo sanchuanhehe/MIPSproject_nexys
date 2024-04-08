@@ -1,0 +1,7 @@
+verilog xil_defaultlib  \
+"../../../../MIPSproject.gen/sources_1/ip/DataRAM/sim/DataRAM.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

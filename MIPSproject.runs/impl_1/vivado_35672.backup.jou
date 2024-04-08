@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:53:51 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Mon Apr  8 14:59:24 2024
+# Process ID: 35672
+# Current directory: D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.runs/impl_1
+# Command line: vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.runs/impl_1/top.vdi
+# Journal file: D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.runs/impl_1\vivado.jou
+# Running On: sanchuan, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 68321 MB
+#-----------------------------------------------------------
+source top.tcl -notrace

@@ -1,0 +1,71 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4126759 on Thu Feb  8 23:53:51 MST 2024
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Mon Apr  8 13:36:25 2024
+# Process ID: 12740
+# Current directory: D:/Users/hehey/Documents/MIPSproject_nexys
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent31752 D:\Users\hehey\Documents\MIPSproject_nexys\MIPSproject.xpr
+# Log file: D:/Users/hehey/Documents/MIPSproject_nexys/vivado.log
+# Journal file: D:/Users/hehey/Documents/MIPSproject_nexys\vivado.jou
+# Running On: sanchuan, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 68321 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close [ open D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.srcs/sources_1/new/top.v w ]
+add_files D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.srcs/sources_1/new/top.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.srcs/sources_1/new/SEG8_LUT.v w ]
+add_files D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.srcs/sources_1/new/SEG8_LUT.v
+update_compile_order -fileset sources_1
+close [ open D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.srcs/sources_1/new/Divide_to_1Hz.v w ]
+add_files D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.srcs/sources_1/new/Divide_to_1Hz.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.srcs/sources_1/new/DV2_2000.v w ]
+add_files D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.srcs/sources_1/new/DV2_2000.v
+close [ open D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.srcs/sources_1/new/Screen.v w ]
+add_files D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.srcs/sources_1/new/Screen.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config D:/Users/hehey/Documents/MIPSproject_nexys/mips_sim_behav.wcfg
+source mips_sim.tcl
+synth_design -top top -part xc7a100tcsg324-1 -lint 
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+export_ip_user_files -of_objects  [get_files D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.srcs/sim_1/new/mips_sim.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.srcs/sim_1/new/mips_sim.v
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.srcs/sim_1/new/top_sim.v w ]
+add_files -fileset sim_1 D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.srcs/sim_1/new/top_sim.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim
+launch_simulation
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_simulation

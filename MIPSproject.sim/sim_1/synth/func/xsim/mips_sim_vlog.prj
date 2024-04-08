@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"mips_sim_func_synth.v" \
+"../../../../../MIPSproject.srcs/sim_1/new/mips_sim.v" \
+
+# Do not sort compile order
+nosort
