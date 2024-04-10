@@ -1,4 +1,6 @@
 Time resolution is 1 ps
 WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
 WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
-$finish called at time : 650 ns : File "D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.srcs/sim_1/new/top_sim.v" Line 88
+WARNING in top_sim.dut.mips1.U6.inst at time              1755100 ns: 
+Reading from out-of-range address. Max address in top_sim.dut.mips1.U6.inst is          63
+$finish called at time : 101 us : File "D:/Users/hehey/Documents/MIPSproject_nexys/MIPSproject.srcs/sim_1/new/top_sim.v" Line 59

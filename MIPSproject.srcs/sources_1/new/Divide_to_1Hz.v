@@ -23,7 +23,7 @@
 module Divide_to_1Hz(CLK_100M,nCLR,CLK_1HzOut);
     parameter N = 25;//位宽
     parameter CLK_Freq = 100_000000;//100MHz时钟输入
-    parameter OUT_Freq = 2;//1Hz时钟输出
+    parameter OUT_Freq = 2000_000;//1Hz时钟输出
     input nCLR,CLK_100M;
     output reg CLK_1HzOut;
     reg [N-1:0] Count_DIV;

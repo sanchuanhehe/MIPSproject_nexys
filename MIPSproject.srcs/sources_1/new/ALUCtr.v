@@ -15,6 +15,11 @@ module ALUCtr (
             8'b10xx0101: ALUCtr[3:0] = 4'b0001;// or
             8'b10xx1010: ALUCtr[3:0] = 4'b0111;// slt
             8'b11xxxxxx: ALUCtr[3:0] = 4'b0000;// andi->and
+            8'b00xx0000: ALUCtr[3:0] = 4'b0010;// lb
+            8'b00xx0010: ALUCtr[3:0] = 4'b0010;// lbu
+            8'b00xx0011: ALUCtr[3:0] = 4'b0010;// lh
+            8'b00xx0110: ALUCtr[3:0] = 4'b0010;// lhu
+            8'b10001000: ALUCtr[3:0] = 4'b0000;// jr
             default:     ALUCtr[3:0] = 4'b0000;// initial
         endcase
     end

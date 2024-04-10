@@ -6,7 +6,7 @@ module Screen(
     output [7:0] outHEX 
     );
 
-    reg [4:0] HEX;
+    reg [3:0] HEX;
 
 
     always @(flag)

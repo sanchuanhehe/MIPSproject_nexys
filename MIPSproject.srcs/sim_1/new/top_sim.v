@@ -26,10 +26,14 @@ module top_sim;
   reg reset;
   wire [7:0] LED;
   wire [7:0] HEX;
+  reg select;
+  reg CP_reset;
 
   top dut (
     .clk(clk),
     .reset(reset),
+    .CP_reset(CP_reset),
+    .select(select),
     .LED(LED),
     .HEX(HEX)
   );
@@ -40,51 +44,18 @@ module top_sim;
     forever #5 clk = ~clk;
   end 
   
-  // Reset generation
   initial begin
-    reset = 1;
-    #10 reset = 0;
+    CP_reset = 1;
+    #10 CP_reset = 0;
+  
   end
 
   // Test stimulus
   initial begin
-    // Wait for a few clock cycles
-    #20;
-
-    // Perform test case 1
-    // Set inputs
+    select = 0;
     reset = 1;
-    // Wait for a few clock cycles
-    #10;
-    reset = 0;
-    // Wait for a few clock cycles
-    #100;
-    // Check outputs
-    // TODO: Add your assertions here
-
-    // Perform test case 2
-    // Set inputs
-    reset = 1;
-    // Wait for a few clock cycles
-    #10;
-    reset = 0;
-    // Wait for a few clock cycles
-    #200;
-    // Check outputs
-    // TODO: Add your assertions here
-
-    // Perform test case 3
-    // Set inputs
-    reset = 1;
-    // Wait for a few clock cycles
-    #10;
-    reset = 0;
-    // Wait for a few clock cycles
-    #300;
-    // Check outputs
-    // TODO: Add your assertions here
-
-    // End simulation
+    #1000 reset = 0;
+    #100000;
     $finish;
   end
 

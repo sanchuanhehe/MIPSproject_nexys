@@ -23,6 +23,7 @@
 module top(
     input clk, //时钟信号
     input reset ,//重置信号
+    input CP_reset,//用于更新PC
     input select,//选择器
     output [7:0] LED,//片名
     output [7:0] HEX//数码管
@@ -36,7 +37,7 @@ module top(
 
     Divide_to_1Hz Divide_to_1Hz1(//1Hz,用于更新PC
         .CLK_100M(clk),
-        .nCLR(!reset),
+        .nCLR(!CP_reset),
         .CLK_1HzOut(CP)
     );
 
@@ -52,7 +53,7 @@ module top(
 
     DV2_2000 DV2_20001(//2000Hz,用于更新flag
         .CLK_100M(clk),
-        .nCLR(!reset),
+        .nCLR(!CP_reset),
         .CLK_1HzOut(CP_2000)
     );
 
